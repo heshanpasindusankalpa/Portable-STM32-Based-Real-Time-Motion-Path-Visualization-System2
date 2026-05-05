@@ -110,6 +110,7 @@ void I2C_Init(I2C_Handle_t *pI2CHandle)
     tempreg |= RCC_GetPCLK1Value() / 1000000U;
     pI2CHandle->pI2Cx->CR2 = (tempreg & 0x3F);
 
+    tempreg = 0;
     tempreg |= pI2CHandle->I2C_Config.I2C_DeviceAddress << 1;
     tempreg |= (1 << 14);
     pI2CHandle->pI2Cx->OAR1 = tempreg;

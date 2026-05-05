@@ -74,7 +74,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Src/OLED_main.c|Src/mpu9250_main.c|Src/010i2c_master_rx_testing.c|Src/010i2c_master_tx_testing.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
+						<entry excluding="Src/led_i2c.c|Src/Led_check.c|Src/OLED_main.c|Src/mpu9250_main.c|Src/010i2c_master_rx_testing.c|Src/010i2c_master_tx_testing.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 					</sourceEntries>
 				</configuration>
@@ -150,7 +150,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Src/OLED_main.c|Src/mpu9250_main.c|Src/010i2c_master_rx_testing.c|Src/010i2c_master_tx_testing.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
+						<entry excluding="Src/led_i2c.c|Src/Led_check.c|Src/OLED_main.c|Src/mpu9250_main.c|Src/010i2c_master_rx_testing.c|Src/010i2c_master_tx_testing.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 					</sourceEntries>
 				</configuration>

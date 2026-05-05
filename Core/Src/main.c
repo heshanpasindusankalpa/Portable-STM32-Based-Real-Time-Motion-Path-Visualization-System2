@@ -141,6 +141,7 @@ int main(void) {
         // 7. Draw point (path)
         OLED_DrawPoint((uint8_t)x_pixel, (uint8_t)y_pixel);
 
+
         delay();
     }
 }
