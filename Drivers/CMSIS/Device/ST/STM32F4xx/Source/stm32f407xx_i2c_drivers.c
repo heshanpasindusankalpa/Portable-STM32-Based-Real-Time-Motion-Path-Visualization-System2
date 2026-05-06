@@ -284,4 +284,3 @@ void I2C_ManageAcking(I2C_TypeDef *pI2Cx,uint8_t EnorDi)
 
 
 
-
